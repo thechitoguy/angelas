@@ -1,0 +1,286 @@
+body {
+    background-color: #f9bd65;
+     background-image: url(yellow.jpg); 
+    background-position: 50% 22%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+
+a {
+    color: #ce2127;
+    
+}
+a:hover {
+   color: #ce2127;
+  text-decoration: none;
+}
+#brand {
+    color: #ce2127;
+    font-weight: bold;
+  
+}
+.navbar-brand{
+    font-family: 'Trochut', cursive;
+    padding-top: 0px;
+    height: 50px;
+ 
+}
+#icon {
+    height: 4rem;
+}
+#original {
+    border-radius: 300px;
+    height: 175px;
+    max-width: 175px;
+}
+.nav-pills {
+    background-color: #845d3c;
+    border-radius: 5px;
+}
+.card-text {
+    font-size: 0.75rem;
+    color: white;
+}
+.card{
+    background-color: #845d3c;
+    flex: 0 1 24%;
+    padding: 10px;
+    max-width: 100%;
+   
+}
+.card-title {
+    color: #2b6733;
+    font-weight: 700;
+}
+
+.navbar.scrolled {
+    background: #f9bd65;
+    transition: background 500ms;
+}
+#pills {
+    /* margin-top: 20%; */
+}
+#pills a {
+    color: white;
+}
+#pills a:hover {
+    color: #ce2127;
+}
+#menuhead {
+    color: white;
+    left: 45.5%;
+    bottom: 70%;
+    position: absolute;
+    
+}
+#hot {
+    position: absolute;
+    top: 86%;
+    left: 80%;
+    max-width: 20%;
+    max-height: 20%;
+}
+#spicy {
+    padding-left: 60%;
+    top: 90%;
+    position: absolute;
+      
+}
+mark {
+    background-color: yellow;
+    color: #ce2127; 
+    border: 1px solid red;
+    
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1220px) {
+    #original {
+        display: none;
+    }
+    #content {
+        /* position: absolute; */
+        margin-top: 20%;
+        top: 40%;
+    }
+    .card {
+        max-width: 50%;
+    }
+    body{
+        overflow-x: hidden;
+       
+    }
+
+
+}
+@media only screen and (max-width: 992px) {
+    #original {
+        display: none;
+    }
+    #pills {
+       
+        right: 55px;
+    }
+        
+       
+    .card {
+            background-color: #845d3c;
+            flex: 0 1 32%;
+            padding: 10px;
+            max-width: 100%;
+            margin-bottom: 10px;
+                  
+        }
+
+    #menuhead{
+        display: none;
+    }
+    body {
+        background-position: 50% 4.8%;
+        background-image: url(cool.png);
+        
+        background-size: 25%; 
+    }
+
+    @media only screen and (max-width: 991px) {
+    
+        body {
+            background-position: 50% 4%;
+            background-image: url(cool.png);
+            background-size: 23%; 
+        }
+                  
+        }
+    @media only screen and (min-width: 866px) and (max-width: 991px) {
+    
+        body {
+            background-position: 50% 1%;
+            background-image: url(cool.png);
+            background-size: 23%; 
+        }
+                  
+        }
+
+}
+@media only screen and (max-width: 776px) {
+    .card {
+        background-color: #845d3c;
+        flex: 0 1 49%;
+        padding: 10px;
+        /* max-width: 100%; */
+        margin-bottom: 10px;
+    }
+    body {
+        background-position: 50% 3%;
+        background-image: url(cool.png);
+        
+        background-size: 25%; 
+    }
+              
+    }
+@media only screen and (max-width: 767px) {
+    
+    body {
+        background-position: 50% 0.5%;
+        background-image: url(cool.png);
+        
+        background-size: 23%; 
+    }
+              
+    }
+
+@media only screen and (max-width: 625px) {
+    #cards .row{
+        
+        flex: 0 1 100%;
+        padding: 10px;
+        max-width: 100%;
+        
+              
+    }
+    
+   
+}
+@media only screen and (max-width: 624px){
+    body {
+        background-position: 50% 2%;
+        background-image: url(cool.png);
+        
+        background-size: 25%; 
+    }
+}
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 400px) {
+   #menuhead { display: none;
+}
+    #original{
+        display: none;
+    }
+    .nav-pills{
+        margin-top: 60%;
+    }
+    body {
+        background-color: #f9bd65;
+         background-image: url(cool.png); 
+        background-position: 50% 3%;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 400;
+        overflow-x: hidden;
+    }
+    .card {
+        flex: 75%;
+        margin-bottom: 10px;
+    }
+
+    
+    
+    #spicy{
+        padding-left: 66%;
+        top: 68%;
+        position: absolute;
+    }
+    #hot {
+        position: absolute;
+        top: 60%;
+        left: 80%;
+        max-width: 20%;
+        max-height: 20%;
+    }
+    #pill{ 
+        margin-bottom: 0;
+    }
+  }
+@media only screen and (max-width: 600px) {
+   #menuhead { color: white;
+    
+    left: 35%;
+    position: absolute;
+}
+}
+@media only screen and (min-width: 326px) {
+.callnow {
+    display: none;
+}
+  }
+@media only screen and (max-width: 325px) {
+    .callnow {
+        display: inline-flex;
+        position: absolute;
+        top: 49.5%;
+        left: 15%;
+    }
+  }
+   */
