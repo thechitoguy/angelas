@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 a {
@@ -110,10 +111,6 @@ mark {
     }
     .card {
         max-width: 50%;
-    }
-    body{
-        overflow-x: hidden;
-       
     }
 
 
