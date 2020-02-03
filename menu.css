@@ -147,16 +147,16 @@ mark {
     @media only screen and (max-width: 991px) {
     
         body {
-            background-position: 50% 4%;
+            background-position: 50% 6.5%;
             background-image: url(cool.png);
-            background-size: 23%; 
+            background-size: 15%; 
         }
                   
         }
-    @media only screen and (min-width: 866px) and (max-width: 991px) {
+    @media only screen and (max-width: 866px) {
     
         body {
-            background-position: 50% 1%;
+            background-position: 50% 3%;
             background-image: url(cool.png);
             background-size: 23%; 
         }
@@ -164,26 +164,10 @@ mark {
         }
 
 }
-@media only screen and (max-width: 776px) {
-    .card {
-        background-color: #845d3c;
-        flex: 0 1 49%;
-        padding: 10px;
-        /* max-width: 100%; */
-        margin-bottom: 10px;
-    }
-    body {
-        background-position: 50% 3%;
-        background-image: url(cool.png);
-        
-        background-size: 25%; 
-    }
-              
-    }
 @media only screen and (max-width: 767px) {
     
-    body {
-        background-position: 50% 0.5%;
+   body {
+        background-position: 50% 1.5%;
         background-image: url(cool.png);
         
         background-size: 23%; 
@@ -192,27 +176,28 @@ mark {
     }
 
 @media only screen and (max-width: 625px) {
-     body {
-        background-position: 50% -2%;
+    .card {
+        background-color: #845d3c;
+        flex: 0 1 99%;
+        padding: 10px;
+       
+        max-width: 80%;
+        margin-bottom: 10px;
+        margin: 5% 15%;
+    }
+    body {
+        background-position: 50% 1.5%;
         background-image: url(cool.png);
         
         background-size: 23%; 
     }
-    .card {
-        background-color: #845d3c;
-        flex: 0 1 90%;
-        padding: 10px;
-        align-self: center;
-        max-width: 85%;
-        margin-bottom: 10px;
-        margin: 5% 15%;
-    }
+              
     
    
 }
 @media only screen and (max-width: 499px){
     body {
-        background-position: 50% 2%;
+        background-position: 50% 0.8%;
         background-image: url(cool.png);
         
         background-size: 25%; 
@@ -221,7 +206,7 @@ mark {
         background-color: #845d3c;
         flex: 0 1 99%;
         padding: 10px;
-        align-self: center;
+       
         max-width: 100%;
         margin-bottom: 10px;
         margin: 5% 10%;
