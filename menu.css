@@ -192,13 +192,12 @@ mark {
     }
 
 @media only screen and (max-width: 625px) {
-    #cards .row{
-        
-        flex: 0 1 100%;
+    .card {
+        background-color: #845d3c;
+        flex: 0 1 99%;
         padding: 10px;
-        max-width: 100%;
-        
-              
+        /* max-width: 100%; */
+        margin-bottom: 10px;
     }
     
    
