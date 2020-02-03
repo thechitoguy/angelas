@@ -146,16 +146,16 @@ mark {
 
     @media only screen and (max-width: 991px) {
     
-        body {
-            background-position: 50% 6.5%;
+       body {
+            background-position: 50% 4.5%;
             background-image: url(cool.png);
-            background-size: 15%; 
+            background-size: 20%; 
         }
                   
         }
     @media only screen and (max-width: 866px) {
     
-       body {
+        body {
             background-position: 50% 5%;
             background-image: url(cool.png);
             background-size: 20%; 
@@ -164,19 +164,35 @@ mark {
         }
 
 }
-@media only screen and (max-width: 767px) {
-    
-   body {
-        background-position: 50% 1.5%;
+@media only screen and (max-width: 776px) {
+    .card {
+        background-color: #845d3c;
+        flex: 0 1 49%;
+        padding: 10px;
+        /* max-width: 100%; */
+        margin-bottom: 10px;
+    }
+    body {
+        background-position: 50% 6%;
         background-image: url(cool.png);
         
-        background-size: 23%; 
+        background-size: 20%; 
+    }
+              
+    }
+@media only screen and (max-width: 767px) {
+    
+    body {
+        background-position: 50% 2.8%;
+        background-image: url(cool.png);
+        
+        background-size: 20%; 
     }
               
     }
 
 @media only screen and (max-width: 625px) {
-    .card {
+        .card {
         background-color: #845d3c;
         flex: 0 1 99%;
         padding: 10px;
@@ -219,9 +235,9 @@ mark {
 
 
 
-
 /* @media only screen and (max-width: 400px) {
-   #menuhead { display: none;
+   #menuhead { 
+    display: none;
 }
     #original{
         display: none;
