@@ -1,17 +1,16 @@
 body {
     background-color: #f9bd65;
      background-image: url(yellow.jpg); 
-    background-position: 50% 22%;
-    background-size: 75%;
+    background-position: 50% 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     overflow-x: hidden;
 }
 
-a {
+#red {
     color: #ce2127;
-    
 }
 a:hover {
    color: #ce2127;
@@ -21,6 +20,10 @@ a:hover {
     color: #ce2127;
     font-weight: bold;
   
+}
+.navbar-nav{
+    align-items: center;
+    
 }
 .navbar-brand{
     font-family: 'Trochut', cursive;
@@ -60,9 +63,7 @@ a:hover {
     background: #f9bd65;
     transition: background 500ms;
 }
-#pills {
-    /* margin-top: 20%; */
-}
+
 #pills a {
     color: white;
 }
@@ -79,15 +80,9 @@ a:hover {
 #hot {
     position: absolute;
     top: 86%;
-    left: 80%;
+    left: 79%;
     max-width: 20%;
     max-height: 20%;
-}
-#spicy {
-    padding-left: 60%;
-    top: 90%;
-    position: absolute;
-      
 }
 mark {
     background-color: yellow;
@@ -107,10 +102,16 @@ mark {
     #content {
         /* position: absolute; */
         margin-top: 20%;
-        top: 40%;
+        
     }
     .card {
         max-width: 50%;
+    }
+    #spicy {
+        padding-left: 59%;
+        top: 91%;
+        position: absolute;
+          
     }
 
 
@@ -146,8 +147,8 @@ mark {
 
     @media only screen and (max-width: 991px) {
     
-       body {
-            background-position: 50% 4.5%;
+        body {
+            background-position: 50% 4%;
             background-image: url(cool.png);
             background-size: 20%; 
         }
@@ -178,6 +179,13 @@ mark {
         
         background-size: 20%; 
     }
+    #hot {
+        position: absolute;
+        top: 86%;
+        left: 80%;
+        max-width: 15%;
+        max-height: 15%;
+    }
               
     }
 @media only screen and (max-width: 767px) {
@@ -188,16 +196,28 @@ mark {
         
         background-size: 20%; 
     }
+    .navbar-collapse{
+        background-color: #f9bd65;
+        
+       
+    }
+    #hot {
+        position: absolute;
+        top: 86%;
+        left: 80%;
+        max-width: 18;
+        max-height: 18%;
+    }
               
     }
 
 @media only screen and (max-width: 625px) {
-        .card {
+    .card {
         background-color: #845d3c;
         flex: 0 1 99%;
         padding: 10px;
        
-        max-width: 80%;
+        
         margin-bottom: 10px;
         margin: 5% 15%;
     }
@@ -208,15 +228,22 @@ mark {
         background-size: 23%; 
     }
               
-    
+    #hot {
+        position: absolute;
+        top: 86%;
+        left: 86%;
+        max-width: 13%;
+        max-height: 13%;
+    }
    
 }
 @media only screen and (max-width: 499px){
     body {
-        background-position: 50% 0.8%;
+        background-position: 50% 3%;
         background-image: url(cool.png);
         
-        background-size: 25%; 
+        background-size: 30%; 
+        margin-top: 15%;
     }
     .card {
         background-color: #845d3c;
@@ -227,75 +254,5 @@ mark {
         margin-bottom: 10px;
         margin: 5% 10%;
     }
+     
 }
-
-
-
-
-
-
-
-/* @media only screen and (max-width: 400px) {
-   #menuhead { 
-    display: none;
-}
-    #original{
-        display: none;
-    }
-    .nav-pills{
-        margin-top: 60%;
-    }
-    body {
-        background-color: #f9bd65;
-         background-image: url(cool.png); 
-        background-position: 50% 3%;
-        background-size: 75%;
-        background-repeat: no-repeat;
-        font-family: 'Libre Baskerville', serif;
-        font-weight: 400;
-        overflow-x: hidden;
-    }
-    .card {
-        flex: 75%;
-        margin-bottom: 10px;
-    }
-
-    
-    
-    #spicy{
-        padding-left: 66%;
-        top: 68%;
-        position: absolute;
-    }
-    #hot {
-        position: absolute;
-        top: 60%;
-        left: 80%;
-        max-width: 20%;
-        max-height: 20%;
-    }
-    #pill{ 
-        margin-bottom: 0;
-    }
-  }
-@media only screen and (max-width: 600px) {
-   #menuhead { color: white;
-    
-    left: 35%;
-    position: absolute;
-}
-}
-@media only screen and (min-width: 326px) {
-.callnow {
-    display: none;
-}
-  }
-@media only screen and (max-width: 325px) {
-    .callnow {
-        display: inline-flex;
-        position: absolute;
-        top: 49.5%;
-        left: 15%;
-    }
-  }
-   */
