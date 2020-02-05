@@ -237,6 +237,14 @@ mark {
     }
    
 }
+@media only screen and (min-width:500px) and (max-width: 550px) {
+    body {
+        background-position: 50% 1.8%;
+        background-image: url(cool.png);
+        
+        background-size: 23%; 
+    }
+}
 @media only screen and (max-width: 499px){
     body {
         background-position: 50% 3%;
