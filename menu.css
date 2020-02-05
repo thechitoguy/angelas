@@ -95,6 +95,7 @@ mark {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+    
 @media only screen and (max-width: 1220px) {
     #original {
         display: none;
@@ -113,6 +114,10 @@ mark {
         position: absolute;
           
     }
+    #callnow {
+        display: none;
+    }
+
 
 
 }
@@ -235,6 +240,14 @@ mark {
         max-width: 13%;
         max-height: 13%;
     }
+    #callnow {
+        display: inline-block;
+        margin: auto;
+    }
+    #contactbtn {
+        color: #ce2127;
+    }
+
    
 }
 @media only screen and (min-width:500px) and (max-width: 550px) {
@@ -244,6 +257,7 @@ mark {
         
         background-size: 23%; 
     }
+   
 }
 @media only screen and (max-width: 499px){
     body {
