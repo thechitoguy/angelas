@@ -197,7 +197,7 @@ mark {
         height: 20%;
         left: 40%;
         top: 11.5%;
-        position: absolute;
+        position: fixed;
         z-index: 1;
         
     }
