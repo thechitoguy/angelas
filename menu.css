@@ -225,6 +225,7 @@ mark {
             height: 18%;
             left: 40%;
             top: 6%;
+            position: fixed;
             
             
         }
