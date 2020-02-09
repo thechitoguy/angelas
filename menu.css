@@ -2,17 +2,20 @@ body {
     background-color: #f9bd65;
     background-image: url(yellow.jpg);
     background-position: 50% 0;
-    background-size: 60%;
+    background-size: 35%;
     background-repeat: no-repeat;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
 
     overflow-x: hidden;
 }
+#content{
+    margin-top: 15.5rem;
+}
 
 .img-fluid {
-    width: 100%;
-    height: 30vh;
+    width: 80vw;
+    height: 11rem;
     object-fit: cover;
 }
 
@@ -95,13 +98,13 @@ a:hover {
     color: #ce2127;
 }
 
-#menuhead {
+/* #menuhead {
     color: white;
     left: 45.5%;
     bottom: 70%;
     position: absolute;
 
-}
+} */
 
 #hot {
     position: absolute;
@@ -138,7 +141,7 @@ mark {
 
     #content {
         /* position: absolute; */
-        margin-top: 20%;
+        margin-top: 13rem;
 
     }
 
@@ -164,6 +167,9 @@ mark {
 @media only screen and (max-width: 992px) {
     #original {
         display: none;
+    }
+    #content{
+        margin-top: 1rem;
     }
 
     #pills {
@@ -193,11 +199,12 @@ mark {
     }
     #cool {
         display: block;
-        width: 20%;
-        height: 20%;
-        left: 40%;
-        top: 11.5%;
-        position: fixed;
+        width: 7.5rem;
+        height: 7rem;
+        left: 25rem;
+        top: 2.5rem;
+        
+        position: relative;
         z-index: 1;
         
     }
@@ -206,11 +213,11 @@ mark {
     @media only screen and (max-width: 991px) {
 
         #cool {
-            
-            width: 10rem;
+             left: 18rem;
+            /* width: 10rem;
             height: 18%;
             left: 41%;
-            top: 6%;
+            top: 6%; */
             
             
         }
@@ -221,12 +228,11 @@ mark {
 
         #cool {
             
-            width: 10rem;
+            /* width: 10rem;
             height: 18%;
             left: 40%;
             top: 6%;
-            position: fixed;
-            
+             */
             
         }
 
@@ -244,11 +250,11 @@ mark {
     }
 
     #cool {
-            
+/*             
         width: 10rem;
         height: 18%;
         left: 40%;
-        top: 5.5%;
+        top: 5.5%; */
         
         
     }
@@ -266,10 +272,7 @@ mark {
 @media only screen and (max-width: 767px) {
     #cool {
             
-        width: 10rem;
-        height: 18%;
-        left: 37%;
-        top: 1%;
+        left: 12rem;
         
         
     }
@@ -303,10 +306,10 @@ mark {
     }
     #cool {
             
-        width: 10rem;
+        /* width: 10rem;
         height: 18%;
         left: 37%;
-        top: 1%;
+        top: 1%; */
         
         
     }
@@ -335,11 +338,22 @@ mark {
 @media only screen and (max-width: 550px) {
     #cool {
             
-        width: 9rem;
+        /* width: 9rem;
         height: 16%;
         left: 37.5%;
-        top: 1.5%;
+        top: 1.5%; */
+        left: 12rem;
         
+    }
+}
+@media only screen and (max-width: 525px) {
+    #cool {
+            
+        /* width: 9rem;
+        height: 16%;
+        left: 37.5%;
+        top: 1.5%; */
+        left: 11.5rem;
         
     }
 }
@@ -347,10 +361,10 @@ mark {
 @media only screen and (max-width: 500px) {
     #cool {
             
-        width: 8rem;
-        height: 13%;
-        left: 37%;
-        top: 2.5%;
+        width: 6rem;
+        height: 6rem;
+        left: 11rem;
+        top: 2.3rem;
         
         
     }
@@ -368,6 +382,9 @@ mark {
 }
 
 @media only screen and (max-width: 475px) {
+    #content{
+        margin-top: 3.5rem;
+    }
     #cool{
         display: none;
     }
