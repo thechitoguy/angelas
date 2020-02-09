@@ -15,7 +15,7 @@ body {
 
 .img-fluid {
     width: 80vw;
-    height: 10vh;
+    height: 20vh;
     object-fit: cover;
 }
 
