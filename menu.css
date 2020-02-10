@@ -14,9 +14,9 @@ body {
 }
 
 .img-fluid {
-    width: 100%;
+    width: 17rem;
     height: 12.5rem;
-    
+    align-self: center;
     
 }
 
