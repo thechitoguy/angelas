@@ -72,6 +72,9 @@ h1 {
     color: #ce2127;
    
 }
+    button{
+        overflow-x: hidden;
+    }
 .carousel {
     border: 2px solid #ce2127;
 }
