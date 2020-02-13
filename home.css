@@ -29,6 +29,9 @@ a:hover {
     padding-top: 0px;
     height: 50px;
 }
+    #hamburger {
+        overflow-x: hidden;
+    }
 
 #icon {
     height: 4rem;
