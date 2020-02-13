@@ -77,8 +77,15 @@ h1 {
 }
 .card {
     background-color: #845d3c;
-    flex: 0 2 99%;
+    /* flex: 0 2 99%; */
     padding: 5px;
     text-align: center;
+    border: 2px solid #ce2127;
+}
+.card-title{
+    color: #ce2127;
+}
+.card-text{
+    color: #f9bd65;
 }
 }
