@@ -68,12 +68,25 @@ footer {
 .navbar-collapse {
     background-color: #f9bd65;
 }
+#hours{
+    margin-bottom: 0.5rem;
+
+}
+#hour{
+    background-color: transparent;
+    border: 1px solid #ce2127;
+    
+}
 h1 {
     color: #ce2127;
    
 }
+h4 {
+    color: #ce2127;
+}
 .carousel {
     border: 2px solid #ce2127;
+    border-radius: 4px;
 }
 .card {
     background-color: #845d3c;
