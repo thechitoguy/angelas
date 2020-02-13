@@ -31,6 +31,7 @@ a:hover {
 }
     #hamburger {
         overflow-x: hidden;
+        margin-right: 0px;
     }
 
 #icon {
@@ -70,6 +71,8 @@ footer {
 
 .navbar-collapse {
     background-color: #f9bd65;
+    overflow-x: hidden;
+    margin-right: 0px;
 }
 h1 {
     color: #ce2127;
