@@ -83,6 +83,7 @@ h1 {
     }
 .carousel {
     border: 2px solid #ce2127;
+    max-width: 100%;
 }
 .card {
     background-color: #845d3c;
