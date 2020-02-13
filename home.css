@@ -1,0 +1,92 @@
+@media only screen and (min-width: 0) and (max-width: 500px) {
+/* Body CSS */
+body {
+    background-color: #f9bd65;
+    /* background-image: url(yellow.jpg);
+    background-position: 50% 0;
+    background-size: 35%;
+    background-repeat: no-repeat; */
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+#red {
+    color: #ce2127;
+    font-style: italic;
+}
+a:hover {
+    color: #ce2127;
+    text-decoration: none;
+}
+/* Collapse Nav CSS */
+.navbar-nav {
+    align-items: center;
+}
+
+/* Nav Expanded CSS */
+.navbar-brand {
+    font-family: 'Trochut', cursive;
+    padding-top: 0px;
+    height: 50px;
+}
+
+#icon {
+    height: 4rem;
+}
+
+#brand {
+    color: #ce2127;
+    font-weight: bold;
+}
+
+/* Scroll JS CSS*/
+.navbar.scrolled {
+    background: #f9bd65;
+    transition: background 500ms;
+}
+/* Footer CSS */
+footer {
+    background-color: #845d3c;
+}
+
+.foot {
+    color: #f9bd65;
+    font-weight: lighter;
+}
+}
+#content {
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+}
+ #cool {
+        width: 6rem;
+        height: 6rem;
+        left: 11.5rem;
+        top: 2.3rem;
+        position: relative;
+        display: block;
+    }
+
+#callnow {
+    margin-bottom: 0.5rem;
+}
+#contactbtn {
+        color: #ce2127;
+    }
+
+.navbar-collapse {
+    background-color: #f9bd65;
+}
+h1 {
+    color: #ce2127;
+   
+}
+.carousel {
+    border: 2px solid #ce2127;
+}
+.card {
+    background-color: #845d3c;
+    flex: 0 2 99%;
+    padding: 5px;
+    text-align: center;
+}
