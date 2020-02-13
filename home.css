@@ -1,7 +1,7 @@
-@media only screen and (min-width: 0) and (max-width: 700px) {
+@media only screen and (min-width: 0) and (max-width: 500px) {
 /* Body CSS */
 body {
-    background-color: white;
+    background-color: #f9bd65;
     /* background-image: url(yellow.jpg);
     background-position: 50% 0;
     background-size: 35%;
@@ -29,10 +29,6 @@ a:hover {
     padding-top: 0px;
     height: 50px;
 }
-    #hamburger {
-        overflow-x: hidden;
-        margin-right: 0px;
-    }
 
 #icon {
     height: 4rem;
@@ -71,19 +67,13 @@ footer {
 
 .navbar-collapse {
     background-color: #f9bd65;
-    overflow-x: hidden;
-    margin-right: 0px;
 }
 h1 {
     color: #ce2127;
    
 }
-    button{
-        overflow-x: hidden;
-    }
 .carousel {
     border: 2px solid #ce2127;
-    max-width: 100%;
 }
 .card {
     background-color: #845d3c;
@@ -91,7 +81,4 @@ h1 {
     padding: 5px;
     text-align: center;
 }
-}
-body {
-    overflow-x: hidden;
 }
