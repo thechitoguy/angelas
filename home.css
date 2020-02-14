@@ -54,7 +54,7 @@ footer {
     font-weight: lighter;
 }
 #content {
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -74,10 +74,10 @@ footer {
 }
 #hour{
     background-color: transparent;
-    border: 1px solid #ce2127;
+    border: 2px solid #ce2127;
     
 }
-h1 {
+h2 {
     color: #ce2127;
    
 }
@@ -100,5 +100,8 @@ h4 {
 }
 .card-text{
     color: #f9bd65;
+}
+#star{
+    width: 90%;
 }
 }
