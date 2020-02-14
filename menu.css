@@ -1,3 +1,4 @@
+/* Body CSS */
 body {
     background-color: #f9bd65;
     background-image: url(yellow.jpg);
@@ -6,95 +7,55 @@ body {
     background-repeat: no-repeat;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-
     overflow-x: hidden;
 }
-#content{
-    margin-top: 15.5rem;
-}
 
-.img-fluid {
-    width: 18rem;
-    height: 12.5rem;
-    align-self: center;
-    
+#content {
+    margin-top: 15.5rem;
 }
 
 #red {
     color: #ce2127;
-font-style: italic;
+    font-style: italic;
 }
-footer{
-    background-color: #845d3c;
-}
+
 a:hover {
     color: #ce2127;
     text-decoration: none;
 }
 
-#brand {
-    color: #ce2127;
-    font-weight: bold;
-
-}
-
+/* Collapse Nav CSS */
 .navbar-nav {
     align-items: center;
+}
 
-}
-.foot{
-    
-    color: #f9bd65;
-    font-weight: bold;
-}
+/* Nav Expanded CSS */
 .navbar-brand {
     font-family: 'Trochut', cursive;
     padding-top: 0px;
     height: 50px;
-
 }
 
 #icon {
     height: 4rem;
 }
 
-#original {
-    border-radius: 300px;
-    height: 175px;
-    max-width: 175px;
+#brand {
+    color: #ce2127;
+    font-weight: bold;
 }
 
+/* Scroll JS CSS*/
+.navbar.scrolled {
+    background: #f9bd65;
+    transition: background 500ms;
+}
+
+/* Pills CSS */
 .nav-pills {
     background-color: #845d3c;
     border-radius: 5px;
     z-index: 2;
-}
-
-.card-text {
-    font-size: 0.65rem;
-    color: wheat;
-    text-align: center;
-}
-
-.card {
-    background-color: #845d3c;
-    flex: 0 1 24%;
-    padding: 0;
-    max-width: 100%;
-    margin-bottom: 10px;
-
-}
-
-.card-title {
-    color: #ce2127;
-    font-weight: 700;
-    text-align: center;
-    font-style: italic;
-}
-
-.navbar.scrolled {
-    background: #f9bd65;
-    transition: background 500ms;
 }
 
 #pills a {
@@ -105,27 +66,25 @@ a:hover {
     color: #ce2127;
 }
 
-/* #menuhead {
-    color: white;
-    left: 45.5%;
-    bottom: 70%;
-    position: absolute;
-
-} */
-
-#hot {
-    position: absolute;
-    top: 86%;
-    left: 79%;
-    max-width: 20%;
-    max-height: 20%;
+/* Card CSS */
+.card-text {
+    font-size: 0.65rem;
+    color: wheat;
+    text-align: center;
 }
 
-mark {
-    background-color: yellow;
-    color: #ce2127;
-    border: 1px solid red;
+.card {
+    background-color: #845d3c;
+    flex: 0 1 24%;
+    padding: 0;
+    margin-bottom: 10px;
+}
 
+.card-title {
+    color: #ce2127;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
 }
 
 #cards {
@@ -134,197 +93,144 @@ mark {
     justify-content: space-between;
 }
 
+.img-fluid {
+    width: 18rem;
+    height: 12.5rem;
+    align-self: center;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #845d3c;
+}
+
+.foot {
+    color: #f9bd65;
+    font-weight: lighter;
+}
+
+/* Hot Image CSS*/
+#hot {
+    position: absolute;
+    top: 86%;
+    left: 79%;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+/* CallButton */
 #callnow {
     display: none;
 }
+
+/* Sunglasses img */
 #cool {
     display: none;
 }
 
+/* Responsive CSS */
 @media only screen and (max-width: 1220px) {
     #original {
         display: none;
     }
 
     #content {
-        /* position: absolute; */
         margin-top: 13rem;
-
-    }
-
-    .card {
-        max-width: 50%;
     }
 
     #spicy {
         padding-left: 59%;
         top: 91%;
         position: absolute;
-
     }
 
     #callnow {
         display: none;
     }
-
-
-
 }
 
 @media only screen and (max-width: 992px) {
     #original {
         display: none;
     }
-    #content{
+
+    #content {
         margin-top: 1rem;
     }
 
     #pills {
-
         right: 55px;
     }
-
 
     .card {
         background-color: #845d3c;
         flex: 0 1 32%;
         padding: 10px;
-        max-width: 100%;
-        margin-bottom: 10px;
-
-    }
-
-    #menuhead {
-        display: none;
     }
 
     body {
-        
         background-image: none;
-
-        
     }
+
     #cool {
         display: block;
         width: 7.5rem;
         height: 7rem;
         left: 25rem;
         top: 2.5rem;
-        
         position: relative;
         z-index: 1;
-        
     }
 }
 
-    @media only screen and (max-width: 991px) {
-
-        #cool {
-             left: 18rem;
-            /* width: 10rem;
-            height: 18%;
-            left: 41%;
-            top: 6%; */
-            
-            
-        }
-
+@media only screen and (max-width: 991px) {
+    #cool {
+        left: 18rem;
     }
-
-    @media only screen and (max-width: 866px) {
-
-        #cool {
-            
-            /* width: 10rem;
-            height: 18%;
-            left: 40%;
-            top: 6%;
-             */
-            
-        }
-
-    }
-
-
+}
 
 @media only screen and (max-width: 776px) {
+
     .card {
         background-color: #845d3c;
         flex: 0 1 49%;
         padding: 10px;
-        /* max-width: 100%; */
-        margin-bottom: 10px;
-    }
-
-    #cool {
-/*             
-        width: 10rem;
-        height: 18%;
-        left: 40%;
-        top: 5.5%; */
-        
-        
     }
 
     #hot {
-        position: absolute;
         top: 86%;
         left: 80%;
         max-width: 15%;
         max-height: 15%;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
     #cool {
-            
         left: 12rem;
-        
-        
     }
-   
 
     .navbar-collapse {
         background-color: #f9bd65;
-
-
     }
 
     #hot {
-        position: absolute;
-        top: 86%;
-        left: 80%;
         max-width: 18;
         max-height: 18%;
     }
-
 }
 
 @media only screen and (max-width: 625px) {
+
     .card {
         background-color: #845d3c;
         flex: 0 1 99%;
         padding: 10px;
-
-
-        margin-bottom: 10px;
         margin: 5% 15%;
     }
-    #cool {
-            
-        /* width: 10rem;
-        height: 18%;
-        left: 37%;
-        top: 1%; */
-        
-        
-    }
-   
 
     #hot {
         position: absolute;
-        top: 86%;
         left: 86%;
         max-width: 13%;
         max-height: 13%;
@@ -338,64 +244,39 @@ mark {
     #contactbtn {
         color: #ce2127;
     }
-
-
 }
 
-@media only screen and (max-width: 550px) {
-    #cool {
-            
-        /* width: 9rem;
-        height: 16%;
-        left: 37.5%;
-        top: 1.5%; */
-        left: 12rem;
-        
-    }
-}
 @media only screen and (max-width: 525px) {
     #cool {
-            
-        /* width: 9rem;
-        height: 16%;
-        left: 37.5%;
-        top: 1.5%; */
         left: 11.5rem;
-        
     }
 }
 
 @media only screen and (max-width: 500px) {
     #cool {
-            
         width: 6rem;
         height: 6rem;
-        left: 11rem;
+        left: 11.5rem;
         top: 2.3rem;
-        
-        
     }
 
     .card {
         background-color: #845d3c;
         flex: 0 1 99%;
-        padding: 5px;
-
-        max-width: 100%;
-        margin-bottom: 10px;
-        margin: 5% 10%;
+        padding: 10px;
     }
-
 }
 
 @media only screen and (max-width: 475px) {
-    #content{
+    #content {
         margin-top: 3.5rem;
     }
-    #cool{
+
+    #cool {
         display: none;
     }
-    .nav-pills{
+
+    .nav-pills {
         margin-top: 10px;
     }
 }
