@@ -1,26 +1,28 @@
-@media only screen and (min-width: 0) and (max-width: 575px) {
 /* Body CSS */
 body {
     background-color: #f9bd65;
-    /* background-image: url(yellow.jpg);
-    background-position: 50% 0;
-    background-size: 35%;
-    background-repeat: no-repeat; */
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     overflow-x: hidden;
 }
+
 #red {
     color: #ce2127;
     font-style: italic;
 }
+
 a:hover {
     color: #ce2127;
     text-decoration: none;
 }
+
 /* Collapse Nav CSS */
 .navbar-nav {
     align-items: center;
+}
+
+.navbar-collapse {
+    background-color: #f9bd65;
 }
 
 /* Nav Expanded CSS */
@@ -44,6 +46,66 @@ a:hover {
     background: #f9bd65;
     transition: background 500ms;
 }
+
+/* Carousel CSS */
+.carousel {
+    border: 2px solid #ce2127;
+    border-radius: 4px;
+}
+
+/* Menu Button CSS */
+#callnow {
+    margin-bottom: 0.5rem;
+}
+
+#contactbtn {
+    color: #ce2127;
+}
+
+/* Hours Card CSS */
+#hours {
+    margin-bottom: 0.5rem;
+}
+
+#hour {
+    background-color: transparent;
+    border: 2px solid #ce2127;
+}
+
+/* Rev Card */
+#star {
+    width: 90%;
+}
+
+#revcard {
+    height: 98%;
+}
+
+/* Card CSS */
+.card {
+    background-color: #845d3c;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #ce2127;
+}
+
+.card-title {
+    color: #ce2127;
+}
+
+.card-text {
+    color: #f9bd65;
+}
+
+/* Heading CSS */
+h2 {
+    color: #ce2127;
+}
+
+h4 {
+    color: #ce2127;
+}
+
 /* Footer CSS */
 footer {
     background-color: #845d3c;
@@ -53,135 +115,91 @@ footer {
     color: #f9bd65;
     font-weight: lighter;
 }
-#content {
-    margin-top: 4.5rem;
-    margin-bottom: 0.5rem;
-}
 
-#callnow {
-    margin-bottom: 0.5rem;
-}
-#contactbtn {
-        color: #ce2127;
+@media only screen and (min-width: 0) and (max-width: 575px) {
+    #content {
+        margin-top: 4.5rem;
+        margin-bottom: 0.5rem;
     }
 
-.navbar-collapse {
-    background-color: #f9bd65;
-}
-#hours{
-    margin-bottom: 0.5rem;
+    #gal {
+        width: 60%;
+        margin-top: 0;
+    }
 
+    #galh5 {
+        margin-bottom: 0;
+    }
+
+    #aboutimg {
+        width: 75%;
+    }
 }
-#hour{
-    background-color: transparent;
-    border: 2px solid #ce2127;
-    
-}
-h2 {
-    color: #ce2127;
-   
-}
-h4 {
-    color: #ce2127;
-}
-.carousel {
-    border: 2px solid #ce2127;
-    border-radius: 4px;
-}
-.card {
-    background-color: #845d3c;
-    /* flex: 0 2 99%; */
-    padding: 5px;
-    text-align: center;
-    border: 2px solid #ce2127;
-}
-.card-title{
-    color: #ce2127;
-}
-.card-text{
-    color: #f9bd65;
-}
-#star{
-    width: 90%;
-}
-}
+
 @media only screen and (min-width:576px) and (max-width: 767px) {
-    body {
-        background-color: #f9bd65;
-        /* background-image: url(yellow.jpg);
-        background-position: 50% 0;
-        background-size: 35%;
-        background-repeat: no-repeat; */
-        font-family: 'Libre Baskerville', serif;
-        font-weight: 400;
-        overflow-x: hidden;
-    }
+
     #content {
         margin-top: 3.5rem;
         margin-bottom: 0.5rem;
     }
-    /* Nav Expanded CSS */
-.navbar-brand {
-    font-family: 'Trochut', cursive;
-    padding-top: 0px;
-    height: 50px;
-}
 
-#icon {
-    height: 4rem;
-}
-
-#brand {
-    color: #ce2127;
-    font-weight: bold;
-}
-    .navbar.scrolled {
-        background: #f9bd65;
-        transition: background 500ms;
-    }
-    #hours{
-        margin-bottom: 0.5rem;
-    
-    }
-    #hour{
-        background-color: transparent;
-        border: 2px solid #ce2127;
-        
-    }
-    h2 {
-        color: #ce2127;
-       
-    }
-    h4 {
-        color: #ce2127;
-    }
-    .carousel {
-        border: 2px solid #ce2127;
-        border-radius: 4px;
-    }
-    .card {
-        background-color: #845d3c;
-        /* flex: 0 2 99%; */
-        padding: 5px;
-        text-align: center;
-        border: 2px solid #ce2127;
-    }
-    .card-title{
-        color: #ce2127;
-    }
-    .card-text{
-        color: #f9bd65;
-    }
-    #star{
+    #star {
         width: 60%;
     }
-    /* Footer CSS */
-footer {
-    background-color: #845d3c;
+
+    #gal {
+        width: 43.5%;
+    }
+
+    #aboutimg {
+        width: 50%;
+    }
+
 }
 
-.foot {
-    color: #f9bd65;
-    font-weight: lighter;
+@media only screen and (min-width:768px) {
+    #content {
+        margin-top: 4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #review {
+        margin-bottom: 0.5px;
+    }
+
+    #gal {
+        width: 30%;
+    }
+
+    #aboutimg {
+        width: 50%;
+    }
+
+    #learn {
+        margin-top: 1.5px;
+    }
 }
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+    #aboutimg {
+        width: 50%;
+    }
+
+    #gal {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    #aboutimg {
+        width: 50%;
+    }
+
+    #gal {
+        width: 47.5%;
+    }
+
+    #star {
+        width: 55%;
+    }
 }
