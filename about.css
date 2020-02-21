@@ -47,7 +47,7 @@ a:hover {
     transition: background 500ms;
 }
 #jumbo {
-    color: white;
+    color: wheat;
    margin-bottom: 0;
     background-color: #f9bd65;
 }
@@ -59,7 +59,7 @@ a:hover {
     padding-top: 1rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-    color: black;
+    color: wheat;
     
 }
 #contact{
