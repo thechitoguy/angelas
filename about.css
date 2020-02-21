@@ -63,6 +63,9 @@ a:hover {
     color: white;
     
 }
+#map {
+margin-bottom: 1rem;
+}
 #contact{
     margin-top: 1rem;
 }
