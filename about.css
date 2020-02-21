@@ -47,15 +47,23 @@ a:hover {
     transition: background 500ms;
 }
 #jumbo {
-    
-   
+    color: white;
+   margin-bottom: 0;
     background-color: #f9bd65;
 }
 #sign {
     width: 100%;
 }
 #address{
+    border: 1px solid #ce2127;
     padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: darkred;
+    
+}
+#contact{
+    margin-top: 1rem;
 }
 /* Footer CSS */
 footer {
