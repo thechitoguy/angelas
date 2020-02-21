@@ -1,0 +1,73 @@
+/* Body CSS */
+body {
+    background-color: #f9bd65;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+#red {
+    color: #ce2127;
+    font-style: italic;
+}
+
+a:hover {
+    color: #ce2127;
+    text-decoration: none;
+}
+
+/* Collapse Nav CSS */
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-collapse {
+    background-color: #f9bd65;
+}
+
+/* Nav Expanded CSS */
+.navbar-brand {
+    font-family: 'Trochut', cursive;
+    padding-top: 0px;
+    height: 50px;
+}
+
+#icon {
+    height: 4rem;
+}
+
+#brand {
+    color: #ce2127;
+    font-weight: bold;
+}
+
+/* Scroll JS CSS*/
+.navbar.scrolled {
+    background: #f9bd65;
+    transition: background 500ms;
+}
+#jumbo {
+    
+   
+    background-color: #f9bd65;
+}
+#sign {
+    width: 100%;
+}
+#address{
+    padding-top: 1rem;
+}
+/* Footer CSS */
+footer {
+    background-color: #845d3c;
+}
+
+.foot {
+    color: #f9bd65;
+    font-weight: lighter;
+}
+@media only screen and (max-width: 575px) {
+    #jumbo {
+        margin-top: 4rem;
+    }
+}
