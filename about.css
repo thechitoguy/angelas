@@ -50,7 +50,7 @@ a:hover {
     color: white;
    margin-bottom: 0;
     background-color: #f9bd65;
-    border-top: 1px solid #ce2127;
+    border-bottom: 1px solid #ce2127;
 }
 #sign {
     width: 100%;
