@@ -184,7 +184,7 @@ footer {
     #aboutimg {
         width: 50%;
     }
-    h1 { 
+    h2{
         display: none;
     }
     #gal {
@@ -192,8 +192,8 @@ footer {
     }
 }
 @media only screen and (min-width: 1201px) {
-    h1 { 
-       display: none;
+    h2 {
+        display: none;
     }
 }
 
