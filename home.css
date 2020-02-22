@@ -180,11 +180,13 @@ footer {
     }
 }
 
-@media only screen and (min-width:992px) and (max-width: 1200px) {
+@media only screen and (min-width:992px){
     #aboutimg {
         width: 50%;
     }
-
+    h2 { 
+        display: none;
+    }
     #gal {
         width: 40%;
     }
