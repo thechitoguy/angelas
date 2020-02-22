@@ -180,7 +180,7 @@ footer {
     }
 }
 
-@media only screen and (min-width:992px) and (max-width: 1201px) {
+@media only screen and (min-width:992px) and (max-width: 1200px) {
     #aboutimg {
         width: 50%;
     }
@@ -191,7 +191,7 @@ footer {
         width: 40%;
     }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
     h1 { 
        display: none;
     }
