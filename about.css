@@ -58,9 +58,11 @@ a:hover {
 #address{
     border: 1px solid #ce2127;
     padding-top: 1rem;
+    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
-    color: white;
+    color: rgb(247, 247, 247);
     
 }
 #map {
