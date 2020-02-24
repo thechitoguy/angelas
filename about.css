@@ -65,8 +65,9 @@ a:hover {
     color: rgb(247, 247, 247);
     
 }
-#map {
-margin-bottom: 0.5rem;
+#map{
+    border: 1.5px solid #ce2127;
+    margin-bottom: 0.5rem;
 }
 #contact{
     margin-top: 1rem;
