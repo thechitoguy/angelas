@@ -15,6 +15,9 @@ a:hover {
     color: #ce2127;
     text-decoration: none;
 }
+h5 {
+    color: #ce2127;
+}
 
 /* Collapse Nav CSS */
 .navbar-nav {
@@ -49,11 +52,23 @@ a:hover {
 #jumbo {
     color: white;
    margin-bottom: 0;
+   margin-top: 0;
+   margin-right: 2rem;
+   margin-left: 2rem;
     background-color: #f9bd65;
+    
     
 }
 #sign {
     width: 100%;
+}
+#storefront {
+    display: none;
+}
+
+#map{
+    border: 1.5px solid #ce2127;
+    margin-bottom: 1rem;
 }
 #address{
     border: 1px solid #ce2127;
@@ -62,12 +77,18 @@ a:hover {
     margin-left: 25px;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    padding-top: 0;
     color: rgb(247, 247, 247);
     
 }
-#map{
-    border: 1.5px solid #ce2127;
-    margin-bottom: 0.5rem;
+#chili {
+    width: 50%;
+    margin-top: 3rem;
+   margin-left: 25%;
+   margin-right: 25%;
+   
+   padding-top: 3rem;
+  
 }
 #contact{
     margin-top: 1rem;
@@ -82,7 +103,47 @@ footer {
     font-weight: lighter;
 }
 @media only screen and (max-width: 575px) {
-    #jumbo {
+    /* #jumbo {
         margin-top: 4rem;
+    } */
+}
+@media only screen and (min-width: 768px) {
+    #address {
+        border: 1px solid #ce2127;
+        padding-top: 1rem;
+        float: right;
+        border: none;
+        margin-bottom: 0.5rem;
+        margin-top: 3rem;
+        color: rgb(247, 247, 247);
+        
+    }
+    #storefront {
+        width: 100%;
+    }
+    #jumbo {
+        
+        /* background-image: url(angelas2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%; */
+
+    }
+    #sign {
+        display: none;
+    }
+    #chili {
+        width: 25%;
+        margin-top: 4rem;
+       margin-left: 37%;
+       margin-right: 37%;
+      
+    }
+    #map {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        margin-right: 14rem;
+        width: 25rem;
+        height: 25rem;
     }
 }
