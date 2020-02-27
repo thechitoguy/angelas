@@ -243,10 +243,6 @@ footer {
         display: inline-block;
         margin: auto;
     }
-
-    #contactbtn {
-        color: #ce2127;
-    }
 }
 
 @media only screen and (max-width: 525px) {
