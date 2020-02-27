@@ -59,7 +59,11 @@ a:hover {
 }
 
 #contactbtn {
-    color: #ce2127;
+    color: white;
+}
+#menubtn {
+    
+    color: white;
 }
 
 /* Hours Card CSS */
@@ -118,16 +122,17 @@ footer {
 
 @media only screen and (min-width: 0) and (max-width: 575px) {
     #content {
-        margin-top: 4.5rem;
+        margin-top: 4rem;
         margin-bottom: 0.5rem;
     }
 
-    #gal {
-        width: 60%;
-        margin-top: 0;
+    #call {
+        width: 30%;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
     }
 
-    #galh5 {
+    #callh5 {
         margin-bottom: 0;
     }
 
@@ -147,10 +152,15 @@ footer {
         width: 60%;
     }
 
-    #gal {
-        width: 43.5%;
+    #call {
+        width: 30%;
     }
-
+    #callp{
+        margin-top: 0.5rem;
+    }
+    #contactbtn {
+        margin-top: 1rem;
+    }
     #aboutimg {
         width: 50%;
     }
@@ -167,7 +177,7 @@ footer {
         margin-bottom: 0.5px;
     }
 
-    #gal {
+    #call {
         width: 30%;
     }
 
@@ -187,13 +197,20 @@ footer {
     h2{
         display: none;
     }
-    #gal {
-        width: 40%;
+    #call {
+        width: 30%;
+    }
+   
+    #contactbtn{
+        margin-top: 1.5rem;
     }
 }
 @media only screen and (min-width: 1201px) {
     h2 {
         display: none;
+    }
+    #callp {
+        padding-top: 0.1rem;
     }
 }
 
@@ -202,7 +219,7 @@ footer {
         width: 50%;
     }
 
-    #gal {
+    #call {
         width: 47.5%;
     }
 
