@@ -212,6 +212,9 @@ footer {
     #callp {
         padding-top: 0.1rem;
     }
+     #contactbtn {
+        margin-top: 0.8rem;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width: 991px) {
