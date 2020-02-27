@@ -18,6 +18,9 @@ a:hover {
 h5 {
     color: #ce2127;
 }
+h1 {
+    color: #ce2127;
+}
 
 /* Collapse Nav CSS */
 .navbar-nav {
@@ -59,17 +62,18 @@ h5 {
     
     
 }
-#sign {
+
+/* Jumbo CSS */
+#inside {
     width: 100%;
 }
-#storefront {
-    display: none;
-}
+
 
 #map{
     border: 1.5px solid #ce2127;
     margin-bottom: 1rem;
 }
+
 #address{
     border: 1px solid #ce2127;
     padding-top: 1rem;
@@ -79,20 +83,28 @@ h5 {
     margin-top: 0.5rem;
     padding-top: 0;
     color: rgb(247, 247, 247);
-    
 }
+
 #chili {
     width: 50%;
     margin-top: 3rem;
    margin-left: 25%;
    margin-right: 25%;
-   
    padding-top: 3rem;
-  
 }
-#contact{
+
+#menu{
     margin-top: 1rem;
 }
+
+#contactbtn {
+    color: white;
+}
+
+#menubtn {
+    color: white;
+}
+
 /* Footer CSS */
 footer {
     background-color: #845d3c;
@@ -102,48 +114,103 @@ footer {
     color: #f9bd65;
     font-weight: lighter;
 }
-@media only screen and (max-width: 575px) {
-    /* #jumbo {
-        margin-top: 4rem;
-    } */
-}
+
 @media only screen and (min-width: 768px) {
     #address {
         border: 1px solid #ce2127;
         padding-top: 1rem;
         float: right;
         border: none;
+        margin-right: 5%;
         margin-bottom: 0.5rem;
         margin-top: 3rem;
         color: rgb(247, 247, 247);
-        
     }
-    #storefront {
+
+    #store {
         width: 100%;
     }
-    #jumbo {
-        
-        /* background-image: url(angelas2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%; */
 
-    }
-    #sign {
-        display: none;
-    }
     #chili {
         width: 25%;
-        margin-top: 4rem;
+        margin-top: 2rem;
        margin-left: 37%;
        margin-right: 37%;
-      
     }
+
     #map {
         margin-bottom: 1rem;
         margin-top: 2rem;
-        margin-right: 14rem;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    #map {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        margin-right: 10%;
+        margin-left: 5%;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #address {
+        border: 1px solid #ce2127;
+        padding-top: 1rem;
+        float: right;
+        border: none;
+        margin-right: 8%;
+        margin-bottom: 0.5rem;
+        margin-top: 3rem;
+        color: rgb(247, 247, 247);  
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #map {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        margin-right: 10%;
+        margin-left: 5%;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #address {
+        border: 1px solid #ce2127;
+        padding-top: 1rem;
+        float: right;
+        border: none;
+        margin-right: 10%;
+        margin-bottom: 0.5rem;
+        margin-top: 3rem;
+        color: rgb(247, 247, 247); 
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #map {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-right: 15%;
+        margin-left: 0;
         width: 25rem;
-        height: 25rem;
+        height: 22rem;
+    }
+   
+    #address {
+        border: 1px solid #ce2127;
+        padding-top: 1rem;
+        float: right;
+        padding: 20px;
+        margin-left: 0;
+        margin-right: 10%;
+        margin-bottom: 0.5rem;
+        margin-top: 3.5rem;
+        color: rgb(247, 247, 247); 
     }
 }
