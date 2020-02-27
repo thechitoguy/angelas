@@ -1,7 +1,7 @@
 /* Body CSS */
 body {
     background-color: #f9bd65;
-    background-image: url(yellow.jpg);
+    background-image: url(img/yellow.jpg);
     background-position: 50% 0;
     background-size: 35%;
     background-repeat: no-repeat;
@@ -97,6 +97,9 @@ a:hover {
     width: 18rem;
     height: 12.5rem;
     align-self: center;
+}
+#contactbtn {
+    color: white;
 }
 
 /* Footer CSS */
